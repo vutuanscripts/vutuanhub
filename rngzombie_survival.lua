@@ -24,7 +24,7 @@ UIStroke.Thickness = 2
 UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 
 local Title = Instance.new("TextLabel", Frame)
-Title.Text = "🌟 Vũ Tuấn Scripts"
+Title.Text = "📜 Vũ Tuấn Scripts"
 Title.Size = UDim2.new(1, 0, 0, 30)
 Title.BackgroundTransparency = 1
 Title.TextColor3 = Color3.new(1, 1, 1)
@@ -32,7 +32,7 @@ Title.Font = Enum.Font.GothamBold
 Title.TextSize = 16
 
 local ToggleButton = Instance.new("TextButton", Frame)
-ToggleButton.Text = "▶ Start Auto Shoot"
+ToggleButton.Text = "▶ Start Shoot Aura Mode"
 ToggleButton.Size = UDim2.new(1, -20, 0, 35)
 ToggleButton.Position = UDim2.new(0, 10, 0, 40)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -41,7 +41,7 @@ ToggleButton.Font = Enum.Font.GothamBold
 ToggleButton.TextSize = 14
 
 local SpamModeButton = Instance.new("TextButton", Frame)
-SpamModeButton.Text = "⚡ Spam Mode: OFF"
+SpamModeButton.Text = "⚡ Fast Shoot Mode: OFF"
 SpamModeButton.Size = UDim2.new(1, -20, 0, 30)
 SpamModeButton.Position = UDim2.new(0, 10, 0, 80)
 SpamModeButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
