@@ -32,7 +32,7 @@ Title.Font = Enum.Font.GothamBold
 Title.TextSize = 16
 
 local ToggleButton = Instance.new("TextButton", Frame)
-ToggleButton.Text = "✅ ON : Shoot Aura Mode"
+ToggleButton.Text = "❎ Off : Shoot Aura Mode"
 ToggleButton.Size = UDim2.new(1, -20, 0, 35)
 ToggleButton.Position = UDim2.new(0, 10, 0, 40)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -159,11 +159,11 @@ end
 ToggleButton.MouseButton1Click:Connect(function()
 	autoShooting = not autoShooting
 	if autoShooting then
-		ToggleButton.Text = "❎ OFF : Shoot Aura Mode"
+		ToggleButton.Text = "✅ ON : Shoot Aura Mode"
 		StatusLabel.Text = "Status: Searching..."
 		task.spawn(startShooting)
 	else
-		ToggleButton.Text = "✅ ON : Shoot Aura Mode"
+		ToggleButton.Text = "❎ OFF : Shoot Aura Mode"
 		StatusLabel.Text = "Status: Off"
 	end
 end)
